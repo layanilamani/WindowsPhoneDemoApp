@@ -1,0 +1,180 @@
+﻿<Page
+    x:Class="App1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Margin="5,5,5,5">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        <Button HorizontalAlignment="Center"  Name="b1" Click="b1_Click">
+            <Button.Template>
+                <ControlTemplate>
+                    <Border Height="120" Width="120" Background="#99cc33">
+                        <Image Source="Assets/icons8-angularjs-96.png"></Image>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+
+        <Button HorizontalAlignment="Center" Grid.Column="1" Name="b2" Click="b1_Click">
+            <Button.Template>
+                <ControlTemplate>
+                    <Border Height="120" Width="120" Background="#ff0097">
+                        <Image Source="Assets/icons8-microsoft-zune-96.png"></Image>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+
+        <Button HorizontalAlignment="Center" Grid.Column="2" Grid.Row="0"  Name="b3" Click="b1_Click">
+            <Button.Template>
+                <ControlTemplate>
+                    <Border Height="120" Width="120" Background="#9f00a7">
+                        <Image Source="Assets/icons8-baidu-96.png"></Image>
+
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+
+        <Button HorizontalAlignment="Center"  Grid.Column="0" Grid.Row="1" Name="b4" Click="b1_Click">
+            <Button.Template>
+                <ControlTemplate>
+                    <Border Height="120" Width="120" Background="#603cba">
+                        <Image Source="Assets/icons8-beam-pro-96.png"></Image>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+
+        <Button HorizontalAlignment="Center" Grid.Column="1" Grid.Row="1"  Name="b5" Click="b1_Click">
+            <Button.Template>
+                <ControlTemplate>
+                    <Border Height="120" Width="120" Background="#00aba9">
+                        <Image Source="Assets/icons8-blender-3d-96.png"></Image>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+
+        <Button HorizontalAlignment="Center"   Grid.Column="2" Grid.Row="1"  Name="b6" Click="b1_Click">
+            <Button.Template>
+                <ControlTemplate>
+                    <Border Height="120" Width="120" Background="#2d89ef">
+                        <Image Source="Assets/icons8-blockchain-new-logo-96.png"></Image>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+
+        <Button HorizontalAlignment="Center"  Grid.Column="0" Grid.Row="2"   Name="b7" Click="b1_Click">
+            <Button.Template>
+                <ControlTemplate>
+                    <Border Height="120" Width="120" Background="#2b5797">
+                        <Image Source="Assets/icons8-choose-font-96.png"></Image>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button HorizontalAlignment="Center"  Grid.Column="1" Grid.Row="2" Name="b8" Click="b1_Click">
+            <Button.Template>
+                <ControlTemplate>
+                    <Border Height="120" Width="120" Background="#ffc40d">
+                        <Image Source="Assets/icons8-corsair-96.png"></Image>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button HorizontalAlignment="Center"  Grid.Column="2" Grid.Row="2" Name="b9" Click="b1_Click">
+            <Button.Template>
+                <ControlTemplate>
+                    <Border Height="120" Width="120" Background="#da532c">
+                        <Image Source="Assets/icons8-counter-strike-96.png"></Image>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button HorizontalAlignment="Center"  Grid.Column="0" Grid.Row="3" Name="b10" Click="b1_Click">
+            <Button.Template>
+                <ControlTemplate>
+                    <Border Height="120" Width="120" Background="#ee1111">
+                        <Image Source="Assets/icons8-discord-new-logo-96.png"></Image>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button HorizontalAlignment="Center"  Grid.Column="1" Grid.Row="3" Name="b11" Click="b1_Click">
+            <Button.Template>
+                <ControlTemplate>
+                    <Border Height="120" Width="120" Background="#b91d47">
+                        <Image Source="Assets/icons8-dota-2-96.png"></Image>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        
+        <Button HorizontalAlignment="Center"  Grid.Column="2" Grid.Row="3" Name="b12" Click="b1_Click">
+            <Button.Template>
+                <ControlTemplate>
+                    <Border Height="120" Width="120" Background="#00a300">
+                        <Image Source="Assets/icons8-google-forms-new-logo-96.png"></Image>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        
+         <Button HorizontalAlignment="Center"  Grid.Column="0" Grid.Row="4" Name="b13" Click="b1_Click">
+            <Button.Template>
+                <ControlTemplate>
+                    <Border Height="120" Width="120" Background="#b91d47">
+                        <Image Source="Assets/icons8-itunes-96.png"></Image>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+          <Button HorizontalAlignment="Center"  Grid.Column="0" Grid.Row="4" Name="b14" Click="b1_Click">
+            <Button.Template>
+                <ControlTemplate>
+                    <Border Height="120" Width="120" Background="#b91d47">
+                        <Image Source="Assets/icons8-overwolf-96.png"></Image>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button HorizontalAlignment="Center"  Grid.Column="1" Grid.Row="4" Name="b15" Click="b1_Click">
+            <Button.Template>
+                <ControlTemplate>
+                    <Border Height="120" Width="120" Background="#603cba">
+                        <Image Source="Assets/icons8-nintendo-gamecube-controller-96.png"></Image>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button HorizontalAlignment="Center"  Grid.Column="2" Grid.Row="4" Name="b16" Click="b1_Click">
+            <Button.Template>
+                <ControlTemplate>
+                    <Border Height="120" Width="120" Background="#b91d47">
+                        <Image Source="Assets/icons8-oovoo-96.png"></Image>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+
+    </Grid>
+</Page>
